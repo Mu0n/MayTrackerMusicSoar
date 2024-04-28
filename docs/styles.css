@@ -62,11 +62,15 @@ header nav {
 
 header .highlight,
 header .current a {
-    color: #e8491d;
+    text-decoration: none;
+    color: #333; /* Dark gray text color */
     font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
 header a:hover {
-    color: #ffffff;
+    color: #e8491d; /* Highlight color on hover */
     font-weight: bold;
 }
+
+
